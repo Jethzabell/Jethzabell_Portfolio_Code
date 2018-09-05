@@ -2,7 +2,7 @@
 
 The components directory contains your Vue.js Components.
 
-CARDS
+CARDS:
 
     hello-there-card
     about-me-card
@@ -11,6 +11,6 @@ CARDS
     comp-skills
     thanks
 
-Navigation
-- Header
-- Footer
+Navigation:
+Header
+Footer
