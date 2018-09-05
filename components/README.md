@@ -12,5 +12,6 @@ CARDS:
     thanks
 
 Navigation:
-Header
-Footer
+
+    Header
+    Footer
