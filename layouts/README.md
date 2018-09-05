@@ -6,7 +6,7 @@ More information about the usage of this directory in the documentation:
 https://nuxtjs.org/guide/views#layouts
 
 
-# application //router:
+# application // router:
  
  <code>TheHeader</code>
  
