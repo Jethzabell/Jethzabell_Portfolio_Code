@@ -7,7 +7,6 @@ https://nuxtjs.org/guide/views#layouts
 
 
 # application // router:
- 
 TheHeader
 nuxt
 the-footer
