@@ -8,8 +8,6 @@ https://nuxtjs.org/guide/views#layouts
 
 # application // router:
  
- <code>TheHeader</code>
- 
- <code>nuxt</code>
- 
- <code>the-footer</code>
+TheHeader
+nuxt
+the-footer
