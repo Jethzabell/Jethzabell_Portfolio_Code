@@ -7,5 +7,5 @@ https://nuxtjs.org/guide/views#layouts
 
 
  <code>TheHeader</code>
-  <code><nuxt/></code> application / router
-  <code><the-footer/></code>
+ <code>nuxt</code> // application // router
+ <code>the-footer</code>
