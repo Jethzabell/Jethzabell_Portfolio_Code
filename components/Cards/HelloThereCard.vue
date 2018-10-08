@@ -6,7 +6,7 @@
             sub-title="HELLO THERE!"
             class="test">
 
-            <p class="card-text">
+            <p class="card-text" data-aos="fade-left" data-aos-delay="500" >
             I'm a young professional, making and learning things on the web.
             </p>
         </b-card>
@@ -24,12 +24,13 @@
 .test{
   height: 100px;
   position: relative;
-  padding: 10px;
-  margin: 3%;
+  padding: 20px;
+  margin: 4%;
   border:0px;
 }
 
 .card-text{
+    padding-top:.5rem;
   color:#464d89;
 }
 
@@ -44,5 +45,3 @@
     margin-left:1rem;
 }
 </style>
-
-

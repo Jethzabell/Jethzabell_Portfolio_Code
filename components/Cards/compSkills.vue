@@ -1,14 +1,21 @@
 <template>
     <b-container style="padding-bottom:3rem;" >
-        <h4>Development Skills</h4>
+        <h3>Development Skills</h3>
         <b-row class="wOutShadow">
             <b-col sm="8" >
                  <b-card-img src="/skills.png" />
             </b-col>
+           
             <b-col sm="4"  >
-                <h4>Projects</h4>
-                <b-card-img src="/underC.png" />
+                 <nuxt-link to="/projects">
+                <h3>Projects</h3>
+                <b-card-img 
+                    data-aos="zoom-in"
+                    data-aos-delay="500" 
+                    src="/projects.png" />
+                 </nuxt-link>
             </b-col>
+           
         </b-row>
     </b-container>
 </template>
@@ -17,5 +24,10 @@
 .wOutShadow{
     box-shadow:20px 20px 50px grey;
     padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h3{
+  color: rgb(63, 63, 63);
 }
 </style>

@@ -3,43 +3,36 @@
         <h3>Focus and Skills</h3>
     <b-row>
     <b-card-group deck>
-        <b-card title="Team Spirit"
-                img-src="/team.png"
-                img-alt="Img"
-                img-top
-                class="wOutShadow">
+        <b-card class="wOutShadow"
+                data-aos="zoom-out">
+            <b-img center src="/team.png"/>
+            <h3>Team Spirit</h3>
             <p class="card-text">
-                <br>I'm <code>self organize</code>, <code>collaborative</code> and
-                <br>enjoy working in an <code>Agile</code> enviroment.
-                <br><code>Life Fact</code>: Basketball Player {College}.
-                <br>But I also have the keys to be 
-                <br><code>Independent</code>: Self-awareness, Self-motivation, and Self-regulation.
-
+                I'm self organize, collaborative and enjoy working in an Agile enviroment.
+                <br>Life Fact: Basketball Athlete.
+                But I also have the keys to be Independent: Self-awareness, Self-motivation, and Self-regulation.
             </p> 
-    
-            
         </b-card>
-        <b-card title="Self-made"
-               img-src="/selfmade.png"
-                img-alt="Img"
-                img-top
-                class="wOutShadow">
+        <b-card class="wOutShadow"
+                data-aos="zoom-out"
+                data-aos-delay="200">
+            <b-img center src="/selfmade.png"/>
+            <h3>Self-made</h3>
             <p class="card-text">
-                I always look for inspiring resources, and I spend a lot of time learning by myself. 
-                <code>Vue(Nuxt)</code>, 
-                <code>React(Redux)</code>,
-                <code>Node(Express)</code> and
-                <code>MongoDB</code> are part of the new things I am learning.
+                I always look for inspiring resources,
+                and I spend a lot of time learning by myself. 
+                Vue(Nuxt), React(Redux), Node(Express) and
+                MongoDB are part of the new things I am learning.
             </p>
         </b-card>
-        <b-card title="Software Engineering"
-                img-src="/softeng.png"
-                img-alt="Img"
-                img-top
-                class="wOutShadow">
+        <b-card class="wOutShadow"
+                data-aos="zoom-out"
+                data-aos-delay="400">
+            <b-img center src="/softeng.png"/>
+            <h3>Software Engineering</h3>
             <p class="card-text">
                 I have been into with web applications now and I worked with tech like:
-                <code>C++, Java, Vue.js, Node.js</code>.
+                C++, Java, Vue.js, Node.js.
             </p>
         </b-card>
     </b-card-group>
@@ -50,6 +43,12 @@
 
 <style scoped>
 .wOutShadow{
+    text-align:center;
     box-shadow:20px 20px 50px grey;
 }
+
+h1, p, h3{
+  color: rgb(63, 63, 63);
+}
+
 </style>

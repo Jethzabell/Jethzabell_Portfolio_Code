@@ -1,13 +1,11 @@
 <template>
   <div>
-
     <hello-there-card/>
     <about-me-card/>
     <skills-cards/>
     <exp-card/>
     <comp-skills/>
     <thanks/>
-
   </div>
 </template>
 

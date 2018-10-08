@@ -1,17 +1,7 @@
 # COMPONENTS
 
 The components directory contains your Vue.js Components.
+Nuxt.js doesn't supercharge these components.
 
-CARDS:
+**This directory is not required, you can delete it if you don't want to use it.**
 
-    hello-there-card
-    about-me-card
-    skills-cards
-    exp-card
-    comp-skills
-    thanks
-
-Navigation:
-
-    Header
-    Footer
