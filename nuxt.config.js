@@ -29,6 +29,9 @@ module.exports = {
   modules: [
     'bootstrap-vue/nuxt'
   ],
+  plugins: [
+    { src: "~/static/aos", ssr: false }
+  ],
   /*
   ** Build configuration
   */

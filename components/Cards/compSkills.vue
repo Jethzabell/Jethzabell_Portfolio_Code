@@ -8,11 +8,11 @@
            
             <b-col sm="4"  >
                  <nuxt-link to="/projects">
-                <h3>Projects</h3>
+                <h3>Projects & Training</h3>
                 <b-card-img 
                     data-aos="zoom-in"
                     data-aos-delay="500" 
-                    src="/projects.png" />
+                    src="/training.svg" />
                  </nuxt-link>
             </b-col>
            
