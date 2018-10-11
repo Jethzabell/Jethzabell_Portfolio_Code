@@ -3,7 +3,7 @@
 > Nuxt.js Jethzabell website portfolio
 
 
-![](https://i.imgur.com/mAy1si7.gif)
+![](https://i.imgur.com/zAHmqRe.gif)
 
 ## Build Setup
 
