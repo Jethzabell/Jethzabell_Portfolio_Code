@@ -2,6 +2,10 @@
 
 > Nuxt.js Jethzabell website portfolio
 
+
+https://i.imgur.com/4TZMmCc.mp4
+
+
 ## Build Setup
 
 ``` bash
