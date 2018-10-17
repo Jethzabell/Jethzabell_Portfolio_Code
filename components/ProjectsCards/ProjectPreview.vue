@@ -1,32 +1,27 @@
 <template>
     <b-card class="txtCenter">
-        <div style="box-shadow:20px 20px 50px grey;border-radius:20px;">
-
+        <div style="box-shadow:10px 10px 30px grey;border-radius:20px;">
+            
             <b-img center class="imageStyle" :src="`${thumbnail}`"/>
+            <h2>{{ title }}</h2>
 
-            <div style="background:white;border-radius:20px;">
+            <ul class="list-inline">
+                <li class="list-inline-item" data-aos="fade-left" data-aos-delay="300">
+                    <a :href="`${uriHeroku}`"><b-img src="/www.png"/></a>
+                </li>
+                <li class="list-inline-item" data-aos="fade-up" data-aos-delay="300">
+                    <a :href="`https://github.com/Jethzabell/${uriGH}`"><b-img src="/github.png"/></a>
+                </li>
+                <li class="list-inline-item" data-aos="fade-right" data-aos-delay="300">
+                    <a :href="`https://github.com/Jethzabell/${uriGH}/blob/master/package.json`"><b-img src="/npm.png"/></a>
+                </li>
+            </ul>
 
-                <h2>{{ title }}</h2>
-
-                <ul class="list-inline">
-                    <li class="list-inline-item" data-aos="fade-left" data-aos-delay="300">
-                        <a :href="`${uriHeroku}`"><b-img src="/www.png"/></a>
-                    </li>
-                    <li class="list-inline-item" data-aos="fade-up" data-aos-delay="300">
-                        <a :href="`https://github.com/Jethzabell/${uriGH}`"><b-img src="/github.png"/></a>
-                    </li>
-                    <li class="list-inline-item" data-aos="fade-right" data-aos-delay="300">
-                        <a :href="`https://github.com/Jethzabell/${uriGH}/blob/master/package.json`"><b-img src="/npm.png"/></a>
-                    </li>
-                </ul>
-
-                <b-card-body> 
-                    <b-button size="sm" class="buttonSpace" >{{hashtags1}}</b-button>
-                    <b-button size="sm" class="buttonSpace" >{{hashtags2}}</b-button>
-                    <b-button size="sm" class="buttonSpace" >{{hashtags3}}</b-button>
-                </b-card-body> 
-                
-            </div>
+            <b-card-body> 
+                <b-button size="sm" class="buttonSpace" >{{hashtags1}}</b-button>
+                <b-button size="sm" class="buttonSpace" >{{hashtags2}}</b-button>
+                <b-button size="sm" class="buttonSpace" >{{hashtags3}}</b-button>
+            </b-card-body> 
         </div>
     </b-card>
 </template>
@@ -71,7 +66,7 @@ export default {
 .txtCenter{
     text-align:center;
     border:0;
-    border-radius:20px;
+    border-radius:10px;
     padding: 0 0 2rem 0;
 }
 
@@ -85,8 +80,8 @@ export default {
 .imageStyle{
     background:#474747;
     padding:.5rem;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     width:100%;
 }
 

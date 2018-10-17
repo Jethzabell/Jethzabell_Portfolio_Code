@@ -1,6 +1,5 @@
 <template>
-     <b-container>
-        <row >
+     <b-container>     
             <ul class="list-inline" style="padding-top:3rem;">
                     <li class="list-inline-item">
                         <nuxt-link to="/">
@@ -17,8 +16,7 @@
                     </nuxt-link>
                 </ul>
             <h1>Projects</h1>
-         </row>
-    <b-row>
+        <b-row>
             <b-card-group deck>
                 <ProjectPreview
                     title="Pizza Planet"
