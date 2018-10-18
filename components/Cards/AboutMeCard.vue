@@ -14,7 +14,7 @@
                         <b-list-group-item class="group"><span class="theItemSpaceL">Phone:</span><span class="theItemSpace">+1 787 420 7746</span></b-list-group-item>
                         <b-list-group-item class="group"><span class="theItemSpaceL">Bilingual:</span><span class="theItemSpace">Spanish and English</span></b-list-group-item>
                     </b-list-group>
-                     <b-button class="buttonMargin" size="md" href="https://drive.google.com/file/d/1RZCQXQ5BeiSLvhz4WvQFQes2W-1AWdhx/view?usp=sharing">Download my Resume</b-button>
+                     <b-button class="buttonMargin" size="md" href="https://drive.google.com/file/d/1VzaQjr6Jj7tzIzzKRwplf49y9Xv3sJ5u/view?usp=sharing">Download my Resume</b-button>
                 </b-col>
                 <b-col lg="8" style="color: rgb(63, 63, 63);">
                     <h4 style="margin-top:2.5rem;">Hi,</h4>
